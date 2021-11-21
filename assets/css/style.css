@@ -1,0 +1,33 @@
+.front-hero{
+    background-color: #2a2829;
+}
+.nunito{
+    font-family: 'Nunito', sans-serif;
+}
+.black-bg{
+    background-color: #2a2829;
+}
+.big-section{
+    min-height: 55rem;
+}
+.middle-section{
+    min-height: 44rem;
+}
+.small-section{
+    min-height: 10rem;
+}
+.fancy-font{
+    font-family: 'Playfair Display', serif;
+}
+.gray-bg{
+    background-color: #e0e0db;
+}
+.div-bottom-border{
+    border-bottom-color: #e0e0db;
+    border-bottom-width: 2px;
+}
+@media (max-width: 768px) {
+    .main-nav{
+        display: none;
+    }
+}
