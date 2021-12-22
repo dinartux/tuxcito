@@ -43,3 +43,14 @@
             </button>
         </div>
     </nav>
+    <div id="responsive-menu" class="black-bg px-6 py-9 mb-1 text-white w-full md:items-center md:w-auto justify-between">
+		<?php wp_nav_menu([
+			'menu' => 'responsive-main-menu',
+			'menu_class' => 'nunito text-6xl',
+			'menu_id' => '',
+			'container' => '',
+		])?>
+        <div>
+            <a id="tuxcito_close_x" href="" class="text-center text-6xl nunito">X</a>
+        </div>
+    </div>

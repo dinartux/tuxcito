@@ -6,7 +6,7 @@
 	<h1 class="text-white text-7xl text-bold mt-30"><?php the_title()?></h1>
 </header>
 <main class="px-8 py-4 gray-bg nunito">
-	<div class="content">
+	<div class="content xl:text-2xl">
 		<?php the_content()?>
 	</div>
 </main>

@@ -26,8 +26,37 @@
     border-bottom-color: #e0e0db;
     border-bottom-width: 2px;
 }
+#responsive-menu {
+    display: none;
+    border-bottom-color: white;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+}
 @media (max-width: 768px) {
     .main-nav{
         display: none;
     }
+    .big-section{
+        min-height: 32rem;
+    }
+    .middle-section{
+        min-height: 28rem;
+    }
+    main div.content {
+        min-height: 55vh;
+    }
+}
+@media (min-width: 769px) {
+    main div.content {
+        min-height: 70vh;
+    }
+}
+.content p a {
+    color: blue;
+}
+.content blockquote {
+    border-left-color: #3A3A3A;
+    border-left-width: 2px;
+    border-left-style: solid;
+    padding-left: 1rem;
 }
